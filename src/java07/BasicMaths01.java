@@ -14,7 +14,6 @@ public class BasicMaths01 {
         return count;
     }
 
-
     public static void main(String[] args) {
         Scanner sc= new Scanner (System.in);
         System.out.println("Enter the value of num : ");
@@ -23,5 +22,6 @@ public class BasicMaths01 {
         System.out.println(answer);
     }
 }
+
 
 
