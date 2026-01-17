@@ -1,0 +1,24 @@
+//Given an integer n, write a function to print all numbers from 1 to n (inclusive) using
+// recursion.
+//You must not use any loops such as for, while, or do-while.
+//The function should print each number on a separate line, in increasing order from 1 to n
+
+
+package java08;
+import java.util.Scanner;
+public class Recursion02 {
+
+    static void printN(int num,int a ){
+         if (a>num){
+         return;
+     }
+        System.out.println(a);
+        printN(num , a+1);
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of n : ");
+        int n = sc.nextInt();
+        printN(n,1);
+    }
+}
