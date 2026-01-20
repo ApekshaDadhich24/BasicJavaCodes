@@ -1,6 +1,5 @@
 //You are given an integer n. You need to check whether the number is a palindrome number
 // or not. Return true if it's a palindrome number, otherwise return false.
-
 package java07;
 import java.util.*;
 public class BasicMaths03 {
@@ -14,7 +13,6 @@ public class BasicMaths03 {
         }
         return result;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number to check if palindrome or not : ");
